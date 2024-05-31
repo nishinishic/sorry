@@ -36,7 +36,7 @@ function setup() {
   gatherText.position((windowWidth - gatherText.width) / 2, 10); // Position at the top of the page
 
   // Set a timeout to freeze the video streams after 447 seconds
-  setTimeout(freezeVideos, 447000); // 447000 milliseconds = 447 seconds
+  setTimeout(freezeVideos, 450000); // 447000 milliseconds = 447 seconds
 }
 
 function gotMineConnectOthers(myStream) {
